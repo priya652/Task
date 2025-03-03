@@ -1,6 +1,6 @@
 import './App.css';
 import Login from './Components/Login';
-import Main from './Components/Main';
+import MainUi from './Components/MainUi';
 import SignUp from './Components/SignUp';
 import { BrowserRouter,Route,Routes } from 'react-router-dom';
 
@@ -12,7 +12,7 @@ function App() {
       </Route>
       <Route path='/' element={<Login/>}>
       </Route>
-      <Route path='/main' element={<Main/>}></Route>
+      <Route path='/main' element={<MainUi/>}></Route>
     </Routes>
 </BrowserRouter>
 

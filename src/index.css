@@ -13,7 +13,7 @@ html, body {
 }
 body{
   font-family: 'Arial', sans-serif;
-  background-color: #7fabb6;
+  /* background-color: #7fabb6; */
   color: #333;
   margin: 0;
 }
@@ -21,3 +21,14 @@ body{
   height: 100%;
   width: 100%;
 }
+/* width */
+::-webkit-scrollbar {width: 5px;height: 5px;}
+
+/* Track */
+::-webkit-scrollbar-track {background: #f1f1f1;}
+
+/* Handle */
+::-webkit-scrollbar-thumb {border-radius: 20px;background: #d3d3d3;}
+.css-1lwhjos-MuiPaper-root-MuiDrawer-paper{top: 80px !important;border-radius: 8px; border-right: none !important;
+  justify-content: space-between !important;
+  height: calc(100% - 80px) !important;}
